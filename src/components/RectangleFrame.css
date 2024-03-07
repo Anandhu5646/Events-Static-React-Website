@@ -1,0 +1,115 @@
+.info-circle-icon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: -1px;
+  transform: scale(3.334);
+}
+.wrapper-info-circle {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notification-icon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: -1px;
+  transform: scale(3.291);
+}
+.wrapper-notification {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.muhammad-asad14 {
+  color: var(--color-aquamarine);
+}
+.hi-muhammad-asad-container,
+.welcome-back {
+  height: 24px;
+  position: relative;
+  display: inline-block;
+}
+.hi-muhammad-asad-container {
+  align-self: stretch;
+  filter: drop-shadow(0 0 40px rgba(255, 255, 255, 0.3));
+}
+.welcome-back {
+  width: 105px;
+  font-weight: 300;
+  text-shadow: 0 0 40px rgba(255, 255, 255, 0.3);
+}
+.line-frame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wrapper-ellipse-1-child {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(2.25);
+}
+.wrapper-ellipse-1 {
+  height: 64px;
+  width: 64px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-frame4 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 8px;
+}
+.assets-table-footer-arrow,
+.rectangle-frame2 {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.assets-table-footer-arrow {
+  width: 331px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 24px;
+}
+.rectangle-frame2 {
+  align-self: stretch;
+  height: 120px;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-xl) var(--padding-21xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-kanit);
+}
+@media screen and (max-width: 450px) {
+  .rectangle-frame2 {
+    gap: 0 774px;
+  }
+}

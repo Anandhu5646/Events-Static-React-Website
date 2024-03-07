@@ -1,0 +1,74 @@
+.meeting-room-2 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.wrapper-star-2-child {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(2.25);
+}
+.wrapper-star-2 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.positions4 {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 300;
+  color: var(--pink);
+}
+.meeting-room-2-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi) 0 0;
+  gap: 0 10px;
+}
+.start-from-121 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-weight: 300;
+}
+.frame-parent2,
+.label-label-label-label-label {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.label-label-label-label-label {
+  border-radius: var(--br-xs);
+  background-color: var(--color-gray-200);
+  box-shadow: 0 0 30px rgba(209, 117, 182, 0.2);
+  border: 1px solid var(--pink);
+  overflow: hidden;
+  padding: var(--padding-base) var(--padding-mid) var(--padding-base)
+    var(--padding-mini);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-kanit);
+}
+@media screen and (max-width: 450px) {
+  .meeting-room-2 {
+    font-size: var(--font-size-base);
+  }
+  .meeting-room-2-parent {
+    flex-wrap: wrap;
+  }
+}
